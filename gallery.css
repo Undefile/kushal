@@ -1,0 +1,80 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.figures{
+   display: flex;
+   justify-content: left;
+}
+
+.figure-1{
+   height: 350px;
+   width: 390px;
+   background-color: rgb(252, 189, 131);
+   margin: 10px 30px;
+   border-radius: 15px;
+   position: relative;
+}
+
+.box{
+   height: 150px;
+   width: 115px;
+   background-color: rgba(165, 42, 42, 0.834);
+   /* margin-top: 30px; */
+   position: absolute;
+   top: 30px;
+   left: 0;
+   z-index: 1;
+}
+
+.star{
+   position: absolute;
+   height: 150px;
+   width: 270px;
+   background-color: brown;
+   top: 115px;
+   left: 0;
+   clip-path: polygon(0% 0%, 100% 0%, 67.7% 50.3%, 100% 100%, 0% 100%, 0% 50%);
+}
+
+.snowman{
+   position: relative;
+   height: 350px;
+   width: 350px;
+   background-color: brown;
+   margin: 10px 30px;
+   border-radius: 15px;
+}
+
+.head{
+   position: absolute;
+   height: 80px;
+   width: 80px;
+   background-color: white;
+   top: 30px;
+   left: 130px;
+   border-radius: 50%;
+}
+.upper-body{
+   position: absolute;
+   height: 130px;
+   width: 130px;
+   background-color: white;
+   top: 105px;
+   left: 108px;
+   border-radius: 50%;
+}
+.lower-body{
+   position: absolute;
+   height: 150px;
+   width: 150px;
+   background-color: white;
+   top: 155px;
+   left: 100px;
+   border-radius: 75px 75px 0 0; /* Rounded top corners to create a semicircle */
+   overflow: hidden;
+   
+}
+
